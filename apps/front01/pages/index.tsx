@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { Todos } from '@que/ui';
 
 const StyledPage = styled.div`
   .page {
@@ -21,7 +22,7 @@ export function Index() {
               Welcome front01 👋
             </h1>
           </div>
-
+          <Todos />
           <div id="hero" className="rounded">
             <div className="text-container">
               <h2>

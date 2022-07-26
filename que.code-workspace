@@ -1,0 +1,56 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": "."
+    },
+    {
+      "path": "apps/front01"
+    }
+  ],
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "typescript.tsdk": "root/node_modules/typescript/lib",
+    "exportall.config.folderListener": [],
+    "search.exclude": {
+      "**/node_modules": true,
+      ".history": true,
+      "**/package-lock.json": true,
+      "**/yarn.lock": true,
+      "**/build": true,
+      "**/*.log": true
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true
+    },
+    "eslint.workingDirectories": [
+      {
+        "mode": "auto"
+      }
+    ],
+    "auto-rename-tag.activationOnLanguage": ["*"],
+    // "typescript.preferences.importModuleSpecifier": "project-relative",
+    "stylelint.validate": ["typescriptreact"],
+    "eslint.validate": ["typescriptreact"],
+    "[xml]": {
+      "editor.defaultFormatter": "DotJoshJohnson.xml"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "naumovs.color-highlight",
+      "wmaurer.change-case",
+      "dbaeumer.vscode-eslint",
+      "ms-vscode.js-debug-nightly",
+      "xyz.local-history",
+      "esbenp.prettier-vscode",
+      "rvest.vs-code-prettier-eslint",
+      "stylelint.vscode-stylelint",
+      "eliostruyf.vscode-typescript-exportallmodules",
+      "vscode-icons-team.vscode-icons",
+      "tyriar.sort-lines",
+      "styled-components.vscode-styled-components"
+    ]
+  }
+}
